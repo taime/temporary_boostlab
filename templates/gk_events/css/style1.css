@@ -1,0 +1,231 @@
+/*
+#------------------------------------------------------------------------
+# Events - June Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2014 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com
+*/
+
+/* Style 1 */
+
+/* template.css */
+a,
+#gkMainbody header h1 a:active,
+#gkMainbody header h1 a:focus,
+#gkMainbody header h1 a:hover,
+#gkMainbody header h2 a:active,
+#gkMainbody header h2 a:focus,
+#gkMainbody header h2 a:hover,
+#k2Container article header h2 a:active,
+#k2Container article header h2 a:focus,
+#k2Container article header h2 a:hover,
+#community-wrap .joms-stream-box article>a,
+.faq li a:hover,
+#login-form ul li a:hover {
+	color: #a8c711;
+}
+.top1-colorbg #gkTop1,
+.top2-colorbg #gkTop2 {
+	background: #00bcf2;
+}
+.breadcrumbs li a:hover { color: #a8c711; }
+#gkFooter a:active,
+#gkFooter a:focus,
+#gkFooter a:hover {
+	color: #a8c711;
+}
+.box.dark a:active,
+.box.dark a:focus,
+.box.dark a:hover { color: #a8c711!important; }
+.box.color1,
+.box.color2 {
+	background: #000;
+}
+.box.color2 {
+	background: #a8c711;
+}
+.menu li a:hover {
+	color: #a8c711 !important;
+}
+#gkPopupLogin #login-form + a {
+	border-color:#a8c711;
+	background: #a8c711;
+	border-bottom-color: #a00600;
+}
+#gkLogo.cssLogo {
+	background-image: url('../images/logo.png');
+}
+#gkLogoSmall.cssLogo {
+	background-image: url('../images/logo.png');
+}
+.svg #gkLogo.cssLogo,
+.svg #gkLogoSmall.cssLogo {
+	background-image: url('../images/logo.svg');
+}
+
+/* joomla.css */
+button,
+.button,
+input.button,
+span.button,
+button.button,
+div.button,
+input[type="submit"],
+input[type="button"],
+.pagenav-prev a,
+.pagenav-next a,
+.pager .previous a,
+.pager .next a,
+#gkMainbody .itemReadMore,
+#gkMainbody .readmore > a,
+.button.invert:active,
+.button.invert:focus,
+.button.invert:hover,
+body #cWindow a.plupload_button,
+.item-page.edit .btn,
+.readon {
+	background: #00bcf2;
+	border: 1px solid #00bcf2;
+	border-bottom: 4px solid #007c9f;
+}
+section.categories-list ul ul li {
+	border-left: 3px solid #a8c711;
+}
+section.category .children h3,
+section.blog .children h3 {
+	color: #a8c711;
+}
+tbody tr td a:hover,
+section.tag-category ul.category li a:hover,
+section.category .children li a:hover { color: #a8c711 }
+article header.itemHasImage h1 a:active,
+article header.itemHasImage h1 a:focus,
+article header.itemHasImage h1 a:hover { color: #a8c711!important; }
+article header li a:hover { color: #a8c711 }
+.tip-title,
+.tooltip-inner strong {
+	background: #a8c711;
+}
+.pagination ul li a:hover,
+.pager li a:hover {
+	background: #00bcf2;
+}
+div.bannerfooter {
+	color: #a8c711;
+}
+dl#tabs dt.tabs span h3 a:hover,
+dl.tabs dt.tabs span h3 a:hover { color: #a8c711 }
+.autocompleter-queried { color: #a8c711!important }
+.faq-title { color: #a8c711 }
+
+/* gk.stuff.css */
+.nspPagination li:hover,
+.nspPagination li.active {
+	background: #00bcf2;
+}
+.nspNext:hover:after,
+.nspPrev:hover:after {
+	background: #00bcf2;
+}
+.nspArt .nspHeader a:hover,
+.nspLinks ul li h4 a:hover { color: #a8c711 !important; }
+.box.dark a.readon:active,
+.box.dark a.readon:focus,
+.box.dark a.readon:hover {
+	color: #a8c711!important;
+}
+.box.dark .nspNext:hover:after,
+.box.dark .nspPrev:hover:after,
+.box.dark .nspPagination li.active {
+	background: #a8c711!important;
+}
+.gkEventInfo {
+	background: #3dd4ff;
+}
+.gkNspPM-SpeakersList > figure > a:before {
+	background: rgba(0, 188, 242, 0.9);
+}
+.gkNspPM-SpeakersList figcaption a:active,
+.gkNspPM-SpeakersList figcaption a:focus,
+.gkNspPM-SpeakersList figcaption a:hover {
+	color: #00bcf2;
+}
+.gkTabsWrap ol li:hover,
+.gkTabsWrap ol li.active,
+.gkTabsWrap ol li.active:hover {
+	background: #00bcf2;
+	border-bottom: 4px solid #009ad0!important;
+}
+.gkTweet > div > .gkTweetInfo:before {
+	color: #00bcf2;
+}
+#gkHeaderMod .btn-big {
+	border-bottom: 4px solid #00bcf2;
+}
+#gkHeaderMod .btn-big:active,
+#gkHeaderMod .btn-big:focus,
+#gkHeaderMod .btn-big:hover {
+	background: #a8c711;
+	border-bottom-color: #a00600;
+}
+.gk-faq dt:before {
+	color: #a8c711;
+}
+
+/* menu.css */
+.gkMenu > ul > li > a:active,
+.gkMenu > ul > li > a:focus,
+.gkMenu > ul > li > a:hover,
+.gkMenu > ul > li.active > a:active,
+.gkMenu > ul > li.active > a:focus,
+.gkMenu > ul > li.active > a:hover {
+	color: #a8c711;
+}
+.gkMenu ul > li.active > a {
+	color: #a8c711;
+}
+.gkMenu > ul li div.childcontent a:hover {
+	color: #a8c711!important;
+}
+#close-menu {
+	color: #a8c711;
+}
+#aside-menu li a.active,
+#aside-menu li a:active,
+#aside-menu li a:focus,
+#aside-menu li a:hover {
+	color: #a8c711;
+}
+
+/* k2.css */
+.k2FeedIcon a:before,
+a.k2FeedIcon:before {
+	color: #00bcf2;
+}
+.itemComments .icon-comments {
+	background: #00bcf2;
+}
+.itemAuthorContent a:hover, ul.itemTags li a:hover, div.tags a:hover, ul.tags a:hover { color: #00bcf2 }
+.k2AuthorsListBlock ul li a.abAuthorLatestItem:hover { color: #00bcf2; }
+.k2CalendarBlock table.calendar tr td.calendarDateLinked a:hover {
+	background: #00bcf2;
+}
+.k2CalendarBlock table.calendar tr td.calendarToday {
+	background: #00bcf2;
+}
+table.calendar tr td.calendarTodayLinked a {
+	color: #00bcf2;
+}
+.k2CalendarBlock table.calendar tr td.calendarTodayLinked a:hover {
+	background: #00bcf2;
+}
+.calendarNavLink { color: #00bcf2; }
+.k2TagCloudBlock a:hover { color: #00bcf2 }
+.events .itemsCategory h2 a:hover,
+.eventslist-date > a:hover,
+.item-info > a:hover { color: #00bcf2 }
+.speakers .itemImageBlock:before {
+	background: rgba(168, 199, 16, 0.9);
+}

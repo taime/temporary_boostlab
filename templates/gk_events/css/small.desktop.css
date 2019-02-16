@@ -1,0 +1,39 @@
+/*
+#------------------------------------------------------------------------
+# Events - June Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2014 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+#gkMainMenu {
+	margin-right: 10px;
+}
+#gkPageContent {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#gkTop1,
+#gkTop2 {
+	margin: 0 -10px!important;
+}
+.agenda .gkTabsNav {
+	padding: 0;
+}
+.agenda ol.gkTabsNav li.gkTabsPreText, 
+.agenda ol.gkTabsNav li.gkTabsPreText:hover {
+	font-size: 24px;
+}
+.gkEventInfo > div {
+	padding: 12px 12px 0 12px;
+}
+.agenda .gkEventInfo h3 {
+	font-size: 14px;
+}
+.gkEventInfo small {
+	font-size: 13px;
+}
+#gkHeaderNav.static #gkMainMenu {
+	left: 45%;
+}

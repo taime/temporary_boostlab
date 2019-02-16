@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Команда</title>
+		<description><![CDATA[]]></description>
+		<link>http://www.boostlab.org</link>
+		<lastBuildDate>Sat, 16 Feb 2019 01:51:51 +0000</lastBuildDate>
+		<generator>Joomla! - Open Source Content Management</generator>
+		<atom:link rel="self" type="application/rss+xml" href="http://www.boostlab.org/team?format=feed&amp;type=rss"/>
+		<language>ru-ru</language>
+		<item>
+			<title>Александра Зубарева--Мастер массажа</title>
+			<link>http://www.boostlab.org/team/item/328-norman-wolf</link>
+			<guid isPermaLink="true">http://www.boostlab.org/team/item/328-norman-wolf</guid>
+			<description><![CDATA[<div class="K2FeedImage"><img src="http://www.boostlab.org/media/k2/items/cache/0847d5211daa2cfcfde28d825aa07d5d_M.jpg" alt="Александра Зубарева--Мастер массажа" /></div><div class="K2FeedIntroText"><p>Помимо основных, проводит также Тай-йога массаж, рефлексология- массаж стоп, Тибетский масляный, постизометрическая релаксация.</p></div>]]></description>
+			<author>livsame@gmail.com ()</author>
+			<category>Команда</category>
+			<pubDate>Mon, 07 Jul 2014 11:25:52 +0000</pubDate>
+		</item>
+		<item>
+			<title>Андрей Резниченко--Мастер медитации и практики «Гвозди»</title>
+			<link>http://www.boostlab.org/team/item/327-andrej-reznichenko-master-meditatsii-i-praktiki-gvozdi</link>
+			<guid isPermaLink="true">http://www.boostlab.org/team/item/327-andrej-reznichenko-master-meditatsii-i-praktiki-gvozdi</guid>
+			<description><![CDATA[<div class="K2FeedImage"><img src="http://www.boostlab.org/media/k2/items/cache/ea91bb19891b6c623322a2cb25533741_M.jpg" alt="Андрей Резниченко--Мастер медитации и практики «Гвозди»" /></div><div class="K2FeedIntroText"><p>Основатель Boostlab и мастер медитации и практики «Гвозди»
+
+</p> 
+
+<p>Специалист по работе с вниманием.</p></div>]]></description>
+			<author>livsame@gmail.com ()</author>
+			<category>Команда</category>
+			<pubDate>Mon, 07 Jul 2014 11:22:54 +0000</pubDate>
+		</item>
+	</channel>
+</rss>

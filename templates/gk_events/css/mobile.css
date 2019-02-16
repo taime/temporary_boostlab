@@ -1,0 +1,542 @@
+/*
+#------------------------------------------------------------------------
+# Events - June Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2014 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+/* Top */
+#gkLogo.cssLogo {
+	margin-top: -100px;
+}
+#gkHeaderNav.static,
+#gkHeaderNav.active {
+	height: 45px;
+}
+#gkMobileMenu {
+	margin: 0px 0 5px 0!important;
+}
+#gkLogoSmall.cssLogo {
+	height: 60px;
+}
+#gkHeaderNav.static #gkLogoSmall {
+	top: 0;
+}
+#gkPageContent {
+	padding: 20px 0;
+}
+
+/* Containers */
+#gkTop1 .box,
+#gkTop2 .box,
+#gkSidebar .box,
+#gkMainbody .box,
+#gkBottom1 .box,
+#gkBottom2 .box,
+#gkBottom3 .box,
+#gkBottom4 .box,
+#gkBottom5 .box {
+	clear: both!important;
+	float: none!important;
+	margin: 0 auto 20px auto!important;
+	max-width: 300px;
+	width: 100%;
+}
+.box.parallax {
+	max-width: 100%!important;
+}
+.box.parallax .content,
+.box.parallax .header {
+	margin: 0 auto!important;
+	max-width: 300px!important;
+}
+#gkBottom1 .box.double, 
+#gkBottom1 .box.double ~ .box, 
+#gkBottom2 .box.double, 
+#gkBottom2 .box.double ~ .box, 
+#gkBottom3 .box.double, 
+#gkBottom3 .box.double ~ .box,
+#gkBottom4 .box.double, 
+#gkBottom4 .box.double ~ .box,
+#gkBottom5 .box.double, 
+#gkBottom5 .box.double ~ .box {
+	width: 100%!important;
+}
+.bottom1-bar #gkBottom1 .box, 
+.bottom2-bar #gkBottom2 .box, 
+.bottom3-bar #gkBottom3 .box, 
+.bottom4-bar #gkBottom4 .box {
+	clear: both;
+	display: block;
+	width: 100%;	
+}
+#gkBottom1.gkSingleModule, 
+#gkBottom2.gkSingleModule,
+#gkBottom3.gkSingleModule, 
+#gkBottom4.gkSingleModule, 
+#gkBottom5.gkSingleModule {
+	padding: 20px 0;
+}
+.bottom1-bar #gkBottom1 > div, 
+.bottom2-bar #gkBottom2 > div, 
+.bottom3-bar #gkBottom3 > div, 
+.bottom4-bar #gkBottom4 > div {
+	display: block;
+}
+#gkSidebar > div {
+	margin-top: 20px!important;
+	padding-top: 25px!important;
+}
+#gkSidebar > div > .box {
+	float: none;
+	margin-top: 0!important;
+	margin-bottom: 12px!important;
+	width: 100%;
+}
+#gkSidebar > div > .box:nth-child(2n+1) {
+	clear: both!important;
+}
+#gkSidebar > div > .box:nth-child(odd) {
+	padding-right: 0px;	
+}
+#gkSidebar > div > .box:nth-child(even) {
+	padding-left: 0px;
+}
+.gkCols[data-cols="2"] > div,
+.gkCols[data-cols="3"] > div,
+.gkCols[data-cols="4"] > div,
+.gkCols[data-cols="5"] > div,
+.gkCols[data-cols="6"] > div.cols66,
+.gkCols[data-cols="6"] > div.cols33
+  {
+	padding-bottom: 20px!important;
+	width: 100%;
+}
+
+/* limitation suffixes */
+.notablet {
+	display: block!important;
+}
+.nomobile {
+	display: none!important;
+}
+.onlytablet {
+	display: none!important;
+}
+.onlymobile {
+	display: block!important;
+}
+.notablet.nomobile {
+	display: none!important;
+}
+
+/* Fix for the user profile */
+.profile dt {
+	width: 100% !important;
+}
+
+/* Fix for the contact page */
+.contact .contact-image {
+	float: left !important;
+}
+.contact .contact-address {
+	clear: both !important;
+	padding-top: 20px !important;
+}
+.contact-details,
+.contact .contact-form input,
+.contact .contact-form textarea {
+	width: 100% !important;
+}
+.contact-details, 
+.contact-image {
+	margin: 0;
+	width: 100% !important;
+}
+.contact-form dl {
+	width: 100%;
+}
+
+/* Fix for the search */
+fieldset.word #search-searchword,
+fieldset.word .inputbox {
+	width: 50%;
+}
+fieldset.phrases .ordering-box,
+fieldset.only input[type="checkbox"],
+fieldset.phrases input[type="radio"] {
+	clear: both;
+}
+
+/* Fix for the register */
+#member-registration dd {
+	clear: both !important;
+	display: block !important;
+}
+
+/* Fix for tables */
+fieldset {
+	max-width: 100%!important;
+	width: 100%!important;
+	overflow: hidden;
+}
+#gkMainbody table:before {
+	content: "Scroll horizontally to view the whole table";
+	height: 14px;
+	width: 100%;
+	display: block;
+	font-size: 10px;
+	margin-top: -30px;
+	margin-bottom: 10px;
+	font-family: Arial, sans-serif;
+}
+#gkMainbody table {
+	width: 540px!important;
+	display: block!important;
+	padding: 30px 0 20px 0; /* padding for the scrollbars and the top message */
+	overflow:scroll;
+	-webkit-overflow-scrolling:touch;
+}
+#gkMainbody table tbody,
+#gkMainbody table thead,
+#gkMainbody table tfoot {
+	width: 540px!important;
+	display: table;
+}
+
+@media only screen and (max-width: 480px) {
+	#gkMainbody table {
+		width: 420px!important;
+	}
+}
+
+@media only screen and (max-width: 440px) {
+	#gkMainbody table {
+		width: 260px!important;
+	}
+}
+
+/* top/bottom modules */
+.box.gkmod-1,
+.box.gkmod-2,
+.box.gkmod-3,
+.box.gkmod-4,
+.box.gkmod-more {
+	float: left!important;	
+}
+.box.gkmod-1,
+.box.gkmod-2,
+.box.gkmod-3,
+.box.gkmod-4,
+.box.gkmod-more {
+	width: 100%!important;
+}
+.box.gkmod-more.gkmod-last-1:last-child,
+.box.gkmod-more.gkmod-last-2:last-child,
+.box.gkmod-more.gkmod-last-2:nth-last-child(2),
+#gkPageWrap .box.gkmod-more.gkmod-last-3:last-child,
+#gkPageWrap .box.gkmod-more.gkmod-last-3:nth-last-child(2),
+#gkPageWrap .box.gkmod-more.gkmod-last-3:nth-last-child(3) {
+	width: 100%!important;
+}
+
+/* top/bottom modules */
+body #gkPage .box {
+	margin-bottom: 20px!important;
+}
+
+/* 3-column layout */
+.gkCols3 .box.gkmod-more:nth-child(1n) {
+	clear: both;
+}
+.gkCols3 .box.gkmod-1,
+.gkCols3 .box.gkmod-2,
+.gkCols3 .box.gkmod-3,
+.gkCols3 .box.gkmod-more,
+.gkCols3 .box.gkmod-more.gkmod-last-1:last-child,
+.gkCols3 .box.gkmod-more.gkmod-last-2:last-child,
+.gkCols3 .box.gkmod-more.gkmod-last-2:nth-last-child(2) {
+	width: 100%!important;
+}
+
+/* 4-column layout */
+body .gkCols4 .box.gkmod-more:nth-child(1n) {
+	clear: both;
+}
+body .gkCols4 .box.gkmod-1,
+body .gkCols4 .box.gkmod-2,
+body .gkCols4 .box.gkmod-3,
+body .gkCols4 .box.gkmod-4,
+body .gkCols4 .box.gkmod-more,
+body .gkCols4 .box.gkmod-more.gkmod-last-1:last-child,
+body .gkCols4 .box.gkmod-more.gkmod-last-2:last-child,
+body .gkCols4 .box.gkmod-more.gkmod-last-2:nth-last-child(2),
+body .gkCols4 .box.gkmod-more.gkmod-last-3:last-child,
+body .gkCols4 .box.gkmod-more.gkmod-last-3:nth-last-child(2),
+body .gkCols4 .box.gkmod-more.gkmod-last-3:nth-last-child(3) {
+	width: 100%!important;
+}
+
+/* 6-column layout */
+body .gkCols6 .box.gkmod-more:nth-child(1n) { 
+	clear: both; 
+}
+body .gkCols6 .box.gkmod-1,
+body .gkCols6 .box.gkmod-2,
+body .gkCols6 .box.gkmod-3,
+body .gkCols6 .box.gkmod-4,
+body .gkCols6 .box.gkmod-more,
+body .gkCols6 .box.gkmod-5,
+body .gkCols6 .box.gkmod-more,
+body .gkCols6 .box.gkmod-6,
+body .gkCols6 .box.gkmod-more,
+body .gkCols6 .box.gkmod-more.gkmod-last-1:last-child,
+body .gkCols6 .box.gkmod-more.gkmod-last-2:last-child,
+body .gkCols6 .box.gkmod-more.gkmod-last-2:nth-last-child(2),
+body .gkCols6 .box.gkmod-more.gkmod-last-3:last-child,
+body .gkCols6 .box.gkmod-more.gkmod-last-3:nth-last-child(2),
+body .gkCols6 .box.gkmod-more.gkmod-last-3:nth-last-child(3),
+body .gkCols6 .box.gkmod-more.gkmod-last-4:last-child,
+body .gkCols6 .box.gkmod-more.gkmod-last-4:nth-last-child(2),
+body .gkCols6 .box.gkmod-more.gkmod-last-4:nth-last-child(3),
+body .gkCols6 .box.gkmod-more.gkmod-last-4:nth-last-child(4),
+body .gkCols6 .box.gkmod-more.gkmod-last-5:last-child,
+body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(2),
+body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(3),
+body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(4),
+body .gkCols6 .box.gkmod-more.gkmod-last-5:nth-last-child(5) {
+	width: 100%!important;
+}
+
+/* NSP adjustments */
+.nspArtPage .nspArt {
+	width: 99%!important;
+}
+
+/* other elements */
+#gkSocialAPI {
+	overflow: hidden;
+}
+
+.cols-2 .column-2, 
+.cols-3 .column-3 {
+	padding: 0!important;
+}
+
+.itemComments .itemCommentsList li img {
+	float: left;
+	margin-left: 0;
+	margin-right: 10px;
+	position: static;
+}
+
+.itemCommentsList li h3 {
+	float: none;
+	margin-top: 5px;
+}
+
+#gkMainbody .registration {
+	width: 100%;
+}
+
+#gkFooterNav li {
+	float: none;
+}
+
+/* NSP */
+.box.header .nspImageWrapper h4 {
+	font-size: 14px!important;
+}
+
+.nspArts,
+.nspLinksWrap {
+	clear: both;
+	float: left!important;
+	width: 100%!important;
+}
+
+.nspArt .nspImageWrapper {
+	width: 100%;
+}
+
+/* K2 fixes */
+.item-meta,
+.item-content,
+.item-info,
+.eventslist-date,
+.events-content,
+.events-data {
+	clear: both;
+	margin: 0 0 20px 0!important;
+	width: 100%!important;
+}
+.events .itemsCategory h2 {
+	font-size: 28px;
+}
+.sponsors article > img,
+.events .itemImageBlock {
+	display: block;
+	float: none!important;
+	margin: 0 auto 20px auto!important;
+	max-width: 50%!important;
+	width: 50%;
+}
+.speakers .itemImageBlock img {
+	width: 100%!important;
+}
+.category .itemBlock > p, 
+.itemsCategory > p {
+	font-size: 14px;
+	margin: 20px auto 40px;
+	padding: 0 0 20px;
+	width: 100%;
+}
+.category .itemBlock {
+	margin: 0 auto;
+	width: 100%;
+}
+.itemBody.containsItemInfo, 
+.itemOtherElements.containsItemInfo,
+.itemListView .itemBlock.containsItemInfo {
+	margin-left: 0!important;
+}
+#k2Container .itemContainer{width:100%!important;}
+#k2Container .subCategoryContainer{width:100%!important;}
+#k2Container .subCategory{height:auto!important;}
+
+.itemCommentsList li > div > div > span {
+	clear: both;
+	display: block;
+}
+.itemCommentsList li > div {
+	margin-left: 0!important;
+	padding-left: 0!important;
+}
+.items-row > div {
+	margin-bottom: 30px;
+	padding: 0!important;
+}
+.genericView .itemView {
+	padding: 0!important;
+	width: 100%!important;
+}
+.itemAuthorDetails {
+	clear: both;
+	margin: 0!important;
+	padding: 10px;
+}
+.itemAuthorData {
+	padding: 0;
+}
+.itemAuthorData img {
+	display: block;
+	margin: 0 0 20px 0;
+}
+.itemAuthorBlock > .gkAvatar > img {
+	margin: 12px!important;
+}
+.itemComments p {
+	clear: both;
+} 
+.itemComments .itemCommentsList li span {
+	font-size: 12px;
+	margin: 0 12px 0 0;
+	clear: both;
+	float: left;
+}
+.itemComments .itemCommentsList li > img, 
+.k2LatestCommentsBlock img, 
+.itemAuthorBlock > .gkAvatar > img {
+	margin: 10px 0;
+}
+.itemComments .itemCommentsList li {
+	padding: 12px;
+}
+.genericView a.itemImage {
+	margin: 0 0 20px 0;
+	width: 100%;
+}
+article header h1, 
+article header h2 {
+	font-size: 24px;
+}
+.login_register_col {
+	border: none!important;
+	padding: 20px 0!important;
+	width: 100%!important;
+}
+.login_register_form > h1 > span + span {
+	display: none;
+}
+.gkTabsWrap ol li {
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+/* Frontpage elements */
+.agenda .nspArt {
+	padding-right: 0!important;
+}
+.box.bigtitle .header {
+	font-size: 28px;
+}
+#gkHeaderMod h1 {
+	font-size: 32px;
+	margin-bottom: 32px!important;
+}
+#gkHeaderMod small {
+	font-size: 14px;
+}
+#gkHeaderMod h2 {
+	font-size: 16px;
+}
+#gkHeaderMod p {
+	width: 100%;
+}
+#gkHeaderMod .btn-big {
+	margin: 0 auto 30px auto!important;
+}
+.gkNspPM-SpeakersList[data-cols="1"] > figure,
+.gkNspPM-SpeakersList[data-cols="2"] > figure,
+.gkNspPM-SpeakersList[data-cols="3"] > figure,
+.gkNspPM-SpeakersList[data-cols="4"] > figure {
+	width: 100%;
+}
+.gk-venue > div {
+	padding: 0;
+	width: 100%;
+}
+.gk-venue > dl {
+	border-left: none;
+	border-top: 1px solid rgba(255, 255, 255, .75);
+	padding: 40px 0 0 0;
+	width: 100%;
+}
+.gkTweets .gkTweet {
+	width: 100%!important;
+}
+.agenda .gkTab {
+	margin-right: 0!important;
+}
+
+/* Other elements */
+dl#tabs dt.tabs,
+dl.tabs dt.tabs,
+dl#tabs dt.tabs a,
+dl.tabs dt.tabs a {
+	clear: both; 
+	width: 100%;
+}
+
+#gkLogo.text > span, 
+#gkLogoSmall.text > span {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+#gkLogoSmall.text .gkLogoSlogan {
+	margin-top: -4px;
+}

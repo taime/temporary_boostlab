@@ -1,0 +1,150 @@
+/*
+#------------------------------------------------------------------------
+# Events - June Joomla! template (for Joomla 2.5)
+#
+# Copyright (C) 2007-2014 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+#gkContentWrap,
+#gkInset {
+	padding-left: 0!important;
+	padding-right: 0!important;
+	width: 100%;
+}
+.itemsContainer .itemsContainerWrap, 
+.itemContainer .itemsContainerWrap {
+	margin: 0!important;	
+}
+.k2FeedIcon a, 
+a.k2FeedIcon {
+	margin-top: 32px;
+}
+.demo-typo-col2,
+.demo-typo-col3,
+.demo-typo-col4 {
+	clear: both;
+	float: none;
+	padding-bottom: 20px;
+	width: 100%;
+}
+#gkBottom1 .box.double,
+#gkBottom1 .box.double ~ .box,
+#gkBottom2 .box.double,
+#gkBottom2 .box.double ~ .box,
+#gkBottom3 .box.double,
+#gkBottom3 .box.double ~ .box,
+#gkBottom4 .box.double,
+#gkBottom4 .box.double ~ .box,
+#gkBottom5 .box.double,
+#gkBottom5 .box.double ~ .box {
+	width: 50%!important;
+}
+#gkBottom1.gkSingleModule .box,
+#gkBottom2.gkSingleModule .box,
+#gkBottom3.gkSingleModule .box,
+#gkBottom4.gkSingleModule .box,
+#gkBottom5.gkSingleModule .box {
+	width: 100%!important;
+}
+
+/* Frontpage elements */
+.gkTweets .gkTweet {
+	width: 50%!important;
+}
+.nspArts,
+.nspLinksWrap {
+	clear: both;
+	width: 100%!important;
+}
+#gkHeaderMod h1 {
+	font-size: 40px;
+	margin-bottom: 40px;
+}
+#gkHeaderMod h2 {
+	font-size: 20px;
+}
+#gkHeaderMod p {
+	font-size: 14px;
+}
+#gkHeaderMod > div > div {
+	padding: 60px 0 30px 0;
+}
+.agenda .gkTabsItem {
+	padding: 3px 0 0 0px!important;
+}
+.agenda .gkTabsNav,
+.agenda .gkTabsContainer {
+	width: 100%;
+}
+.agenda .gkTabsNav {
+	margin-bottom: 30px;
+}
+.agenda .gkTab {
+	text-align: center;
+	width: 100%;
+}
+.gkNspPM-SpeakersList[data-cols="4"] > figure {
+	width: 50%;
+}
+.gk-venue > div {
+	padding: 0 40px;
+	width: 60%;
+}
+.gk-venue > dl {
+	width: 40%;
+}
+.gkEventInfo h3 {
+	font-size: 15px;
+}
+.agenda-3cols .gkTabsNav {
+	display: none;
+}
+.agenda-3cols .gkTabsNav li {
+	width: 100%!important;
+}
+.agenda-3cols .gkTabsContainer .gkTabsItem, 
+.agenda-3cols .gkTabsContainer .gkTabsItem.gk-hide, 
+.agenda-3cols .gkTabsContainer .gkTabsItem.gk-active, 
+.agenda-3cols .gkTabsContainer .gkTabsItem.gk-hidden {
+	width: 100%!important;	
+}
+
+@media (max-width: 660px) {
+    body #cc-notification h2, 
+    body #cc-notification h3, 
+    body #cc-notification p {
+        font-size: 12px!important;
+        margin-bottom:0!important;
+        width: 100%!important;
+        max-width: 100%!important;
+    }
+
+    body #cc-notification h2 span, 
+    body #cc-notification h2 {
+        font-size: 12px!important;
+    }
+
+    body #cc-notification #cc-notification-wrapper {
+        padding: 10px 32px 0!important;
+    }
+
+    body #cc-notification ul.cc-notification-buttons {
+        clear: both!important;
+        width: 100%!important;
+        position: static!important;
+        text-align: center;
+    }
+
+    body #cc-notification ul.cc-notification-buttons li {
+        float: none!important;
+        display: inline-block;
+    }
+
+    body #cc-notification a, 
+    body #cc-notification a:visited {
+        font-size: 12px!important;
+    }
+}
